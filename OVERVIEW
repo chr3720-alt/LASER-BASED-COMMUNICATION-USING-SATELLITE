@@ -1,0 +1,68 @@
+Overview
+
+This project simulates a laser-based communication system for satellite data transmission using MATLAB. An image is converted into a train of laser pulses and transmitted to a satellite. The satellite modulates these pulses using External Amplitude Modulation (EAM) and sends them back to the receiver. The receiver processes the pulses and reconstructs the original image using MATLAB signal and image processing techniques.
+
+This demonstrates a secure, high-speed optical communication method for space systems.
+
+Key Features
+
+✨ Image-to-laser pulse conversion
+✨ External Amplitude Modulation (EAM) simulation
+✨ MATLAB-based signal processing
+✨ Image reconstruction at receiver
+✨ Demonstration of optical satellite communication
+
+System Architecture
+
+Input Image
+
+Image to Pulse Conversion
+
+Laser Pulse Transmission
+
+Satellite Modulation (EAM)
+
+Signal Reception
+
+Pulse Decoding
+
+Image Reconstruction
+
+How It Works
+
+An input image is loaded into MATLAB.
+
+Pixel values are converted into a binary data stream.
+
+The binary stream is converted into laser pulse signals.
+
+The pulses are modulated using External Amplitude Modulation (EAM).
+
+The modulated signal is transmitted through a simulated communication channel.
+
+The receiver detects the pulses and reconstructs the original image using decoding algorithms.
+
+Technologies Used
+
+MATLAB
+
+Image Processing Toolbox
+
+Signal Processing Toolbox
+
+Optical Communication Simulation
+
+Applications
+
+Satellite communication
+Deep-space communication
+Secure optical data transmission
+High-speed space networking
+
+Future Improvements
+
+Real-time optical communication simulation
+
+Noise and atmospheric interference modeling
+
+Hardware implementation using laser transmitters and photodiodes
